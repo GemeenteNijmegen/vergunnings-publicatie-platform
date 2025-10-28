@@ -2,6 +2,7 @@ import { Stack, StackProps } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import { CloudfrontDistribution } from './CloudfrontDistribution';
 import { Configurable } from './Configuration';
+import { S3AccessUser } from './S3AccessUser';
 import { VergunningsBucket } from './VergunningsBucket';
 
 interface VergunningsPublicatiePlatformStackProps extends StackProps, Configurable {}
@@ -15,6 +16,9 @@ export class VergunningsPublicatiePlatformStack extends Stack {
       bucket: bucket.s3OriginConfig.s3BucketSource,
       originConfig: bucket.s3OriginConfig,
       domainNames: props.configuration.domainNamesCloudFront,
+    });
+    new S3AccessUser(this, 'publish-access', {
+      bucket: bucket.s3OriginConfig.s3BucketSource,
     });
   }
 }
