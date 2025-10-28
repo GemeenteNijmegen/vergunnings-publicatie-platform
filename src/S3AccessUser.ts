@@ -85,19 +85,19 @@ export class S3AccessUser extends Construct {
         ],
       },
     );
-    if(key) {
+    if (key) {
       s3SingleBucketAccess.addStatements(
-         new PolicyStatement({
-            effect: Effect.DENY,
-            notActions: [
-              'kms:Decrypt',
-              'kms:DescribeKey',
-              'kms:Encrypt',
-              'kms:ReEncrypt*',
-              'kms:GenerateDataKey*',
-            ],
-            notResources: [key.keyArn],
-          }),
+        new PolicyStatement({
+          effect: Effect.DENY,
+          notActions: [
+            'kms:Decrypt',
+            'kms:DescribeKey',
+            'kms:Encrypt',
+            'kms:ReEncrypt*',
+            'kms:GenerateDataKey*',
+          ],
+          notResources: [key.keyArn],
+        }),
       );
     }
     s3SingleBucketAccess.applyRemovalPolicy(RemovalPolicy.DESTROY);

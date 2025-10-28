@@ -2,8 +2,8 @@ import { Stack, StackProps } from 'aws-cdk-lib';
 import { Construct } from 'constructs';
 import { CloudfrontDistribution } from './CloudfrontDistribution';
 import { Configurable } from './Configuration';
-import { VergunningsBucket } from './VergunningsBucket';
 import { S3AccessUser } from './S3AccessUser';
+import { VergunningsBucket } from './VergunningsBucket';
 
 interface VergunningsPublicatiePlatformStackProps extends StackProps, Configurable {}
 
