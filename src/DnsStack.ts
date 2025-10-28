@@ -25,8 +25,8 @@ export class DnsStack extends Stack {
     const accountZone = this.accountHostedZone();
 
     const hostedZone = new Route53.HostedZone(this, 'projectzone', {
-      zoneName: `${Statics.projectName}.${accountZone.zoneName}`,
-      comment: `${Statics.projectName} hosted zone`,
+      zoneName: `${Statics.projectSubdomain}.${accountZone.zoneName}`,
+      comment: `${Statics.projectSubdomain} hosted zone`,
     });
 
     if (!hostedZone.hostedZoneNameServers) {

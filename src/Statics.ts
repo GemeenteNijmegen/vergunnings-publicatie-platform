@@ -13,6 +13,7 @@ export abstract class Statics {
   static readonly projectHostedZonePath: string = `/${Statics.projectName}/hostedzone`;
   static readonly projectHostedZoneId: string = `/${Statics.projectName}/hostedzone/id`;
   static readonly projectHostedZoneName: string = `/${Statics.projectName}/hostedzone/name`;
+  static readonly projectSubdomain: string = 'vergunningen';
 
   // Environments
   static readonly gnBuildEnvironment = {
