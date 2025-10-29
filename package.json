@@ -31,7 +31,7 @@
     "@gemeentenijmegen/projen-project-type": "^1.11.7",
     "@stylistic/eslint-plugin": "^2",
     "@types/jest": "^30.0.0",
-    "@types/node": "^24.9.1",
+    "@types/node": "^24.9.2",
     "@typescript-eslint/eslint-plugin": "^8",
     "@typescript-eslint/parser": "^8",
     "aws-cdk": "^2",
@@ -42,7 +42,7 @@
     "eslint-plugin-import": "^2.32.0",
     "jest": "^30.2.0",
     "jest-junit": "^16",
-    "projen": "^0.98.4",
+    "projen": "^0.98.5",
     "ts-jest": "^29.4.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
