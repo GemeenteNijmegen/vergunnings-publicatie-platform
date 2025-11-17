@@ -25,7 +25,7 @@ export const configurations: { [key: string]: Configuration } = {
     branch: 'main',
     deployFromEnvironment: Statics.gnBuildEnvironment,
     deployToEnvironment: Statics.gnStaticWebsitesEnvironmentProd,
-    domainNamesCloudFront: [`${Statics.projectSubdomain}.static-websites.csp-nijmegen.nl`],
+    domainNamesCloudFront: [`${Statics.projectSubdomain}.static-websites.csp-nijmegen.nl`,],
     domainNamesCertificate: {
       domainName: `${Statics.projectSubdomain}.static-websites.csp-nijmegen.nl`,
       alternativeNames: undefined,
@@ -35,10 +35,10 @@ export const configurations: { [key: string]: Configuration } = {
     branch: 'acceptance',
     deployFromEnvironment: Statics.gnBuildEnvironment,
     deployToEnvironment: Statics.gnStaticWebsitesEnvironmentAccp,
-    domainNamesCloudFront: [`${Statics.projectSubdomain}.static-websites-accp.csp-nijmegen.nl`],
+    domainNamesCloudFront: [`${Statics.projectSubdomain}.static-websites-accp.csp-nijmegen.nl`, 'besluitenapv.accp.nijmegen.nl'],
     domainNamesCertificate: {
       domainName: `${Statics.projectSubdomain}.static-websites-accp.csp-nijmegen.nl`,
-      alternativeNames: undefined,
+      alternativeNames: ['besluitenapv.accp.nijmegen.nl'],
     },
   },
 };
