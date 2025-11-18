@@ -23,7 +23,9 @@ export class CertificateStack extends Stack {
     const certificate = new Certificate(this, 'certificate', {
       domainName: props.configuration.domainNamesCertificate.domainName,
       subjectAlternativeNames: props.configuration.domainNamesCertificate.alternativeNames,
-      validation: props.configuration.domainNamesCertificate.alternativeNames ? acm.CertificateValidation.fromDns() : acm.CertificateValidation.fromDns(projectHostedZone),
+      validation: props.configuration.domainNamesCertificate.alternativeNames
+        ? acm.CertificateValidation.fromDns()
+        : acm.CertificateValidation.fromDns(projectHostedZone),
     });
 
     new ssm.StringParameter(this, 'cert-arn', {
