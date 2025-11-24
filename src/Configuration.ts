@@ -25,10 +25,10 @@ export const configurations: { [key: string]: Configuration } = {
     branch: 'main',
     deployFromEnvironment: Statics.gnBuildEnvironment,
     deployToEnvironment: Statics.gnStaticWebsitesEnvironmentProd,
-    domainNamesCloudFront: [`${Statics.projectSubdomain}.static-websites.csp-nijmegen.nl`],
+    domainNamesCloudFront: [`${Statics.projectSubdomain}.static-websites.csp-nijmegen.nl`, 'besluitenapv.accp.nijmegen.nl'],
     domainNamesCertificate: {
       domainName: `${Statics.projectSubdomain}.static-websites.csp-nijmegen.nl`,
-      alternativeNames: undefined,
+      alternativeNames: ['besluitenapv.nijmegen.nl'],
     },
   },
   acceptance: {
