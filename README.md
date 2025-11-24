@@ -8,4 +8,4 @@ Dit project bevat de IAC voor het platform: publiceren van vergunningen. Het bie
 
 - Publiceren van vergunningen
 - Documentenbeheer
-- Zoekmogelijkheden voor vergunningen
+- Inzien voor vergunningen (als bijlage)
