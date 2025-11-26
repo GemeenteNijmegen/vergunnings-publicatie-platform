@@ -28,7 +28,7 @@ export const configurations: { [key: string]: Configuration } = {
     domainNamesCloudFront: [`${Statics.projectSubdomain}.static-websites.csp-nijmegen.nl`, 'besluitenapv.accp.nijmegen.nl'],
     domainNamesCertificate: {
       domainName: `${Statics.projectSubdomain}.static-websites.csp-nijmegen.nl`,
-      // alternativeNames: ['besluitenapv.nijmegen.nl'],
+      alternativeNames: ['besluitenapv.nijmegen.nl'],
     },
   },
   acceptance: {
