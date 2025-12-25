@@ -650,19 +650,19 @@
     fast-xml-parser "5.2.5"
     tslib "^2.6.2"
 
-"@aws-solutions-constructs/aws-cloudfront-s3@^2.96.0":
-  version "2.96.0"
-  resolved "https://registry.yarnpkg.com/@aws-solutions-constructs/aws-cloudfront-s3/-/aws-cloudfront-s3-2.96.0.tgz#ddcbb277f8dcc98a581281a7ded86a3938b296a9"
-  integrity sha512-VDJmR0l7Q74/E8OQjSjx9+BphXhAl51Knr7JrN3pTRvXsNav+Q8pgVxpH8L79+ne8z608gPlL/pqHmp8r6An7w==
+"@aws-solutions-constructs/aws-cloudfront-s3@^2.97.0":
+  version "2.97.0"
+  resolved "https://registry.yarnpkg.com/@aws-solutions-constructs/aws-cloudfront-s3/-/aws-cloudfront-s3-2.97.0.tgz#392f0cad271a0abdd454d02cfb3ec4100fa67731"
+  integrity sha512-sSD69QiZpX88pIuFsk6BNOauZrLwr51ksMz9alLtBmg678ERav7qvM4EED7k5ccFnf0v5ffIyZG6Jpa8TnLKWw==
   dependencies:
-    "@aws-solutions-constructs/core" "2.96.0"
-    "@aws-solutions-constructs/resources" "2.96.0"
+    "@aws-solutions-constructs/core" "2.97.0"
+    "@aws-solutions-constructs/resources" "2.97.0"
     constructs "^10.0.0"
 
-"@aws-solutions-constructs/core@2.96.0":
-  version "2.96.0"
-  resolved "https://registry.yarnpkg.com/@aws-solutions-constructs/core/-/core-2.96.0.tgz#1e78b3ef4cef406e34e431dde47df8d7297de744"
-  integrity sha512-jcNjbQuAHLurZRYqtKXsKj88M1NqvspWLbeWepz8Mo5ocb3WHN6oorzCIsxM1uLVUrov1hmjFvKotZ4q/pHw7A==
+"@aws-solutions-constructs/core@2.97.0":
+  version "2.97.0"
+  resolved "https://registry.yarnpkg.com/@aws-solutions-constructs/core/-/core-2.97.0.tgz#82853ed7cec8fe428a4d63337e318867a0b436eb"
+  integrity sha512-FV1MKwuaYNQ1RBPjnP4cLKKguqlUaWXO4J/ipz9/PNIA6VOXw+NYp/EXTQNovJ+Cvv2+L0KR7Lm8fMbaMPznPQ==
   dependencies:
     "@aws-cdk/cloud-assembly-schema" "^48.6.0"
     constructs "^10.0.0"
@@ -670,14 +670,14 @@
     deepmerge "^4.0.0"
     npmlog "^7.0.0"
 
-"@aws-solutions-constructs/resources@2.96.0":
-  version "2.96.0"
-  resolved "https://registry.yarnpkg.com/@aws-solutions-constructs/resources/-/resources-2.96.0.tgz#fb83b941d736060662c273ef71de8aaab6b956d3"
-  integrity sha512-6uPHE0eCDx7BV2aVC1KutZrI1mEOsU70zoqKpGklOUZ/QtZxAgtOeH/mOb9wc/v9ytMjZYtjmInFh0yo184mcQ==
+"@aws-solutions-constructs/resources@2.97.0":
+  version "2.97.0"
+  resolved "https://registry.yarnpkg.com/@aws-solutions-constructs/resources/-/resources-2.97.0.tgz#323161f1730e8f6b1426fa495e642814fe0a0af3"
+  integrity sha512-0ghJV4ZOV6t4KUIVd2UKLjIdDik0ffEgAEAkq52LEkfk5/NK9lDX27GyZexg93EAkaF4y4vlUThH7N+bM5bUYA==
   dependencies:
     "@aws-sdk/client-kms" "^3.478.0"
     "@aws-sdk/client-s3" "^3.478.0"
-    "@aws-solutions-constructs/core" "2.96.0"
+    "@aws-solutions-constructs/core" "2.97.0"
     constructs "^10.0.0"
 
 "@aws/lambda-invoke-store@^0.2.2":
@@ -1598,9 +1598,9 @@
   integrity sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==
 
 "@sinclair/typebox@^0.34.0":
-  version "0.34.41"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.34.41.tgz#aa51a6c1946df2c5a11494a2cdb9318e026db16c"
-  integrity sha512-6gS8pZzSXdyRHTIqoqSVknxolr1kzfy4/CeDnrzsVz8TTIWUbOBr6gnzOmTYJ3eXQNh4IYHIGi5aIL7sOZ2G/g==
+  version "0.34.45"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.34.45.tgz#6c0426b584c74d57625ed6b180ac59a62f139f7c"
+  integrity sha512-qJcFVfCa5jxBFSuv7S5WYbA8XdeCPmhnaVVfX/2Y6L8WYg8sk3XY2+6W0zH+3mq1Cz+YC7Ki66HfqX6IHAwnkg==
 
 "@sinonjs/commons@^3.0.1":
   version "3.0.1"
