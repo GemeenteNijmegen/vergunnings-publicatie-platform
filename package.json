@@ -48,7 +48,7 @@
   },
   "dependencies": {
     "@aws-solutions-constructs/aws-cloudfront-s3": "^2.98.0",
-    "@gemeentenijmegen/aws-constructs": "^0.0.47",
+    "@gemeentenijmegen/aws-constructs": "^0.0.48",
     "@gemeentenijmegen/projen-project-type": "^1.12.1",
     "@pepperize/cdk-ssm-parameters-cross-region": "^0.0.536",
     "aws-cdk-lib": "^2.2.0",
