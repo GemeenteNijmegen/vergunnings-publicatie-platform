@@ -47,7 +47,7 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@aws-solutions-constructs/aws-cloudfront-s3": "^2.99.0",
+    "@aws-solutions-constructs/aws-cloudfront-s3": "^2.100.0",
     "@gemeentenijmegen/aws-constructs": "^0.0.48",
     "@gemeentenijmegen/projen-project-type": "^1.12.1",
     "@pepperize/cdk-ssm-parameters-cross-region": "^0.0.536",
