@@ -45,9 +45,8 @@ export class PipelineStack extends Stack {
         BRANCH_NAME: this.branchName,
       },
       commands: [
-        'yarn install --frozen-lockfile',
-        'npx projen build',
-        'npx projen synth',
+        'npm ci',
+        'npm run synth',
       ],
     });
 

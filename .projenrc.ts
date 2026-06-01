@@ -1,6 +1,7 @@
 import { GemeenteNijmegenCdkApp } from '@gemeentenijmegen/projen-project-type';
 const project = new GemeenteNijmegenCdkApp({
   cdkVersion: '2.2.0',
+  nvmNodeVersion: '24',
   defaultReleaseBranch: 'acceptance',
   devDeps: [],
   name: 'vergunnings-publicatie-platform',
